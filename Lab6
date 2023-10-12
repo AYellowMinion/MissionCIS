@@ -1,28 +1,38 @@
 Please Answer the following questions in Details:
 
 How is a device-dependent program different from a device-independent program?
- 
+A device-dependent program are programs that can only run on certain types of hardware as opposed to device-independent programs which do not need hardware to function.
 
 Explain the main purpose of an operating system?
- 
+An operating system is the manage all the software and hardware on a computer or device. It the brains of an operation in a sense and helps control and keep everything running smoothly between functions. It also serves as the main form of communication between a user interface and the hardware/software.
 
 Explain Difference Between Multitasking (Time-Sharing) and Multi-threading?
+Mutlitasking is when a CPU executes multiple separate tasks at any given time, it is doing several things at once as opposed to multi-threading where a single task is broken down into several pieces or threads and processed. 
+In multitasking, each separate task has its own resources and memory usage while in multi-threading, the same amount of resources are used regardless of thread count.
  
 
 Identify the five steps in the operating system start-up process.
- 
+1. Power on the machine - activating the device and turning it on
+2. Power-On Self Test (POST) - a routine the system self executes and checks to ensure everything is functional and ready to go
+3. Load BIOS - If everything in the system is working well then the device will initiate the device boot list and load in the Basic Input/Output system from that device.
+4. Load Operating System (OS) - If the bios is fully functional and loaded correctly then the computer will load the operating system into the memory and execute any functions.
+5. Transfer control to OS - After the OS is loaded and everything is set and functional such as the startup routines, then your computr is ready to use.
 
 Differentiate among the features of the mobile operating systems of : Android , iOS, Windows (Mobile Edition).
- 
+Android - very customizable, software is open source, easy to use and connect to, wide variety of compatiable programming languages and is based off the Linux OS family
+IOS - Not customizable unless you jailbreak it, the software is closed and properitary, lacking in file transfer options and most customizability however the apps and support around it is very robust and is strongly supported by Apple, some programming options allowed and the OS family is based off UNIX and OS X
+Windows - very customizable, the software was essentially windows developed by microsoft but is closed source, developedd and written in C/C++/C#, excellent integration and support with the microsoft family, not a widely supported amount of apps or development support, 
 
 Describe operating system memory management.
+The process of controlling and managing the computers main memory to ensure proper usage and allocation towards the operating system, applications and background processes. The main idea behind this management is a used as needed, only when needed so there is no pre-allocation rather only when the program requests or demands a certain amount of memory and the memory is to be freed when finished.
+
  
 
 Define the following:
-Kernel
-Interrupts
-Caching
-Virtual memory
+Kernel - a computr program that is a part of the computer's operating system and generally has complete control over everything in the system.
+Interrupts - a signal from a device attached to a computer or from a program to signal the OS that something needs immediate attention
+Caching - Caching is either a hardware or software component that stores data for easier and quicker retrieval as opposed to finding the piece of data from scratch again.
+Virtual memory - a memory management technique that your OS uses by utlizing your hard or solid state drive as memory, if you happend to run out of RAM.
  
 
 Submit the lab here as a text, PDF or word 
