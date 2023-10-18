@@ -1,0 +1,39 @@
+1- Determine the decimal value of the following unsigned binary numbers:
+
+ 11000               
+
+1111111
+
+110001
+
+1000000000
+
+ 
+
+2- Using 8 bits, what is the unsigned binary representation of each of the following values:
+
+23
+55
+275
+ 
+
+3- Assume that the following 10-bit numbers represent signed integers using sign/magnitude notation. The sign is the leftmost bit and the remaining 9 bits represent the
+
+magnitude. What is the decimal value of each?
+
+1000110001 
+
+1000000001
+
+0110011000 
+
+1000000000
+
+ 
+
+4- Assume that a = 1, b = 2, and c = 2. What is the value of each of the following Boolean expressions?
+
+(a > 1) OR (b = c)
+[(a + b) > c] AND (b # c)
+NOT (a = 1)
+NOT [(a = b) OR (b = c)]
